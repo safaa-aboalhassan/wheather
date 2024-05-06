@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+ 
+
+</head>
+<body class="body">
+  <nav id="nav" class="navbar navbar-expand-lg color">
+    <div class="container">
+      <a class="navbar-brand" href="#index.html">
+        <img src="th.jpg " class="rounded-circle">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li data-dir="Home" class="nav-item mx-1 active fs-4">
+            <a class="nav-link fw-bold" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li data-dir="News" class="nav-item mx-1 fs-4">
+            <a class="nav-link fw-bold" href="#News">News</a>
+          </li>
+          <li data-dir="LiveCameras" class="nav-item mx-1 fs-4">
+            <a class="nav-link fw-bold" href="#LiveCameras">Live cameras</a>
+          </li>
+          <li data-dir="Photos" class="nav-item mx-1 fs-4">
+            <a class="nav-link fw-bold" href="#Photos">Photos</a>
+          </li>
+          <li data-dir="Contact" class="nav-item mx-1 fs-4">
+            <a class="nav-link fw-bold" href="./page/Contact.html">Contact</a>
+          </li>
+          <li class="nav-item mx-1">
+            <div class="ToggleBtn">
+              <div class="circle light"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ---------------------------- -->
+  <div class="w-75 mt-3 m-auto">
+    <input type="text" id="mainSearch" class="w-100 p-3 rounded-pill"    onkeyup="search(value)" placeholder="Find your location...">
+    
+   
+  </div>
+<!-- =====----------------------------- -->
+<div class="container row m-4 m-auto" id="post" >
+    <div class="col-3">
+   
+    </div>
+  </div>
+<!-- ===================================== -->
+<div class="container row m-4 m-auto" id="hour" >
+  <div class="col-3">
+ 
+  </div>
+</div>
+
+
+
+
+  
+
+<!-- ====================================== -->
+      
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/api2.js"></script>
+</body>
+</html>
